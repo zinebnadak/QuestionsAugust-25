@@ -1,3 +1,5 @@
+# Questions week 1
+
 #1 What is a variable, why is it used?
 #Answer: when you give a name a value, and store that value for later use
 
