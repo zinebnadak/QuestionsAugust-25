@@ -1,7 +1,7 @@
 # Questions week 1
 
 #1 What is a variable, why is it used?
-#Answer: when you give a name a value, and store that value for later use
+#Answer: when you give a name to a value, and store that value for later use
 
 #2 How do you differentiate the type of an integer and a string?
 #Answer: An integer is a number, whilst strings are marked with " and cannot be calculated.
@@ -13,7 +13,7 @@
 #Answer: Name multiple variables simultaniously.    person1, personb = "zineb", "mariam"
 
 #5 what is "end=" used for?
-#Answer: used during print("", end= "") to control what is printed efter the command will appear at the same line
+#Answer: used during print("", end= "") ,what is printed after the command will appear at the same line
 
 #6 what is the opposit to "end=" command
 #Answer: \n, so each statement prints on a new line. print("Hello\nWorld\nHow are you?")
