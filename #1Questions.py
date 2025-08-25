@@ -12,14 +12,14 @@
 #4 How is "multiple assignment" used, give example
 #Answer: Name multiple variables simultaniously.    person1, personb = "zineb", "mariam"
 
-#5 what is "end=" used for?
+#5 what is end="" used for?
 #Answer: used during print("", end= "") ,what is printed after the command will appear at the same line
 
 #6 what is the opposit to "end=" command
 #Answer: \n, so each statement prints on a new line. print("Hello\nWorld\nHow are you?")
 
 #7 What are these type of characters called, can you give more examples?
-#Answer: Escape characters, ex. \t inserts like pressing a tab key, \\ lets you print one backlash character, \" and \' let you include quotation marks inside strings, \b backspace deletes one charachter backward, \a bell - *may play a sound on some systems, /r carriage returs reset the cursor to the beginning of line and prints the word after command again. It keeps printing over the same line, creating an animation-like effect.
+#Answer: Escape characters, ex. \t inserts like pressing a tab key, \\ lets you print one backlash character, \" and \' let you include quotation marks inside strings,\"hello!\"", \b backspace deletes one charachter backward, \a bell - *may play a sound on some systems, /r carriage returs reset the cursor to the beginning of line and prints the word after command again. It keeps printing over the same line, creating an animation-like effect.
 
 #8 What and How is "input()" command used?
 #Answer: asks the user to type something, and it stores that input as a string. name = input("What is your name? ") print("Hello, " + name + "!"). You can use it with int or float to get numbers.
@@ -33,13 +33,13 @@
 #11 How do you specify how many space characters the answer is going to be printed out on with f-strings?
 #Answer: using this syntax f"{value:width}". ex. print (f"{name:10}!") will give you space between name and ! You can also use padding with 0:s for numbers to fill upp space. print (f"{number:05}"). Program will use 5 spaces and those not used will be padded with 0:s.
 
-#12 How can allignment symbols to , be used for neater looks?
+#12 How can adding allignment symbols in f-strings, be used for neater looks?
 #Answer: print(f"{value:<10}") — Left-align (default for strings). print(f"{value:>10}") — Right-align (default for numbers). print (f"{value:^10}") — Center-align.
 
 #13 What does adding "=" after variable in f-string do?
-#Answer: prints both the variable name and its value , print (f'{i=}')
+#Answer: prints both the variable name and its value , print (f"{i=}")
 
-#14 What is difference between numerical expressions and numerical operands?
+#14 What is difference between numerical operands and numerical expressions?
 #Answer:Operands are the values or variables involved in a calculation ex. In 3 + 4, the operands are 3 and 4. An expression is a combination of operands and operators (like +, -, *, /) that produces a value. Together they form an expression.
 
 #15 Why do we need to import the math module, give example of how it works?
@@ -66,7 +66,7 @@
 # dubble_x = x * 2     # Store the updated value back in x
 # print(dubble_x)
 
-#20 print ("Hello"+123) gives you error, write a correct version, according to PEP
+#20 print ("Hello"+123) gives you error, write a correct version, according to PEP8
 #Answer: print("Hello", 123)
 
 #21 What is PEP, and PEP8?
