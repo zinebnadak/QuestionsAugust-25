@@ -62,7 +62,7 @@ print("Let's see if I'm right: " + str(magic_number))
 #value3 = input()
 #print("Du skrev in:", value1, value2, value3)
 
-#9 What is split used for, and how to use?
+----------------------------------------#9 What is split used for, and how to use?
 #Answer: splits one string of text into smaller parts. Used to input multiple values on the same string. Used with pointsyntax.  Can combine split with input.
 # text = "Hello world this is ChatGPT"
 #words = text.split()
@@ -73,20 +73,20 @@ print("Let's see if I'm right: " + str(magic_number))
 #10 How can you combine split with input?
 #Answer:
 # answer = input("Enter three values: ")
-# answer.split() = value1, value2, value3
+#value1, value2, value3 = answer.split() 
 # print("You wrote:", value1, value2, value3)
 #eller
 # answer = input("Skriv in tre värden: ").split()
 # print("You wrote:", value1, value2, value3)
 
-#11 what does () in ".slipt()" tell us?
+#11 what does () in ".split()" tell us?
 #Answer: the different values of inputs are separated by blank space
 
 #12 How can you change that?
 #Answer: by specifying the separator inside the parenthesis
-#ex. answer.split(":") # Specify : as separator
+#ex. answer.split(":")        # Specify : as separator with quote sign
 
-#12 For what practical things use split syntax? give example
+----------------------------------------------------------------------------------------------------------------------------------#12 For what practical things use split syntax? give example
 # For processing using data of ex. time or date.
 # Ex. Date:
 # answer = input("Enter a time (HH:MM:SS): ")
