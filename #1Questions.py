@@ -118,5 +118,4 @@
 #31 What is pyright in Python used for?
 #Answer : is a typechecker, controls if the types used in program correctly. By running > pyright filename.py
 
-print("zineb", end= " ")
-print("mariam")
+
