@@ -133,4 +133,33 @@ print (f"In {age_in_question}, you will be {age_in_that_year} years old!" )
 #17 How is tripple quotes """ used
 #ANswer: to create a string that spans multiple lines
 
+                  #18 Explain the von Neurmann arcitecture from 1945: EXAM QUESTION
+#answer: 
+#Lagrat program/lagring SSD/Hårddisk – Data och instruktioner lagras i samma minne.
+#Enhetligt minne RAM – Samma minne används för både program och data.
+#Processor  - CPU (Centralenhet) – Utför instruktionerna steg för steg. Består av tre delar: ALU (räkningar och logik), CU (Styrenhet-kontrollerar ordningen) och Register (små, snabba minnesplatser, används för att lagra data och instruktioner temporärt medan de bearbetas)
+#
+#In- och utmatning – Hanterar kommunikation med användare och enheter.ex. tangentbord, skärm 
 
+                  #19 Explain how the different parts work together: EXAM QUESTION
+#Samspel:
+#1Du öppnar ett program från lagringen.
+#2Det laddas in i minnet (RAM) - tömms när ström kopplas ur
+#3Processorn kör instruktionerna.
+
+                  #20 Identifiate the different parts from a picture from manual EXAM QUESTION
+#Answer: search for pic
+
+                  #21 Why is this important to understand? EXAM QUESTION
+#Answer: The operating system’s job is to go from hardware to app. The operating system manages the hardware (processor, memory, hard disk, etc.) and enables programs and apps to use the hardware, creating an environment where programs can run.
+
+#22 What is cache-memory used for?
+#Answer: Cache memory is a small, super-fast type of memory inside the CPU used to store frequently accessed data and instructions. It helps the processor work faster by reducing the time needed to get data from the main memory (RAM).
+
+#23 Storage media are devices where data is saved permanently or temporarily in a computer or other electronics.
+#ANswer: Examples of storage media:
+#Hard disk drive (HDD)
+#SSD (Solid State Drive)
+#USB flash drive
+#CD/DVD
+#Obs! with time the voltage redues and you an lose the stored media
