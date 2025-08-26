@@ -86,7 +86,7 @@ print("Let's see if I'm right: " + str(magic_number))
 #Answer: by specifying the separator inside the parenthesis
 #ex. answer.split(":")        # Specify : as separator with quote sign
 
-----------------------------------------------------------------------------------------------------------------------------------#12 For what practical things use split syntax? give example
+#12 For what practical things use split syntax? give example
 # For processing using data of ex. time or date.
 # Ex. Date:
 # answer = input("Enter a time (HH:MM:SS): ")
@@ -96,15 +96,11 @@ print("Let's see if I'm right: " + str(magic_number))
 # 13 Exercise: Write a program that lets the user enter their birthdate in the format DD/MM/YYYY. Use input and split. Store the answer in three separate variables. What happens if the user only enters two values, or uses the wrong separator?
 #Answer:
 
-
-
-
-
 #14 What is sep="  and how is it used inside string?
 #Answer: defines the separator that is inserted between the items you're printing.
 # print("2025", "08", "25", sep="-")
 
-#15 Exercise: birthday calculation program.
+----------------------------------------------------------#15 Exercise: birthday calculation program. Calculate how old the person has become this year/will be in 10 years
 #Answer:
 print()
 birthdate = input("When were you born? (DD/MM/YYYY): ") #Ask the user for their birthdate in the format DD/MM/YYYY
