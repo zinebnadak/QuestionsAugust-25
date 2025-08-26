@@ -163,3 +163,21 @@ print (f"In {age_in_question}, you will be {age_in_that_year} years old!" )
 #USB flash drive
 #CD/DVD
 #Obs! with time the voltage redues and you an lose the stored media
+
+                  #24 What is RAID? Raid 0 and Raid1? 
+#Answer: RAID är ett sätt att koppla ihop flera hårddiskar eller SSD:er så att de fungerar tillsammans. Det kan göra datorn snabbare eller skydda dina filer bättre. Raid1 (spegling) =Samma data sparas på två diskar, som en kopia. Om en disk går sönder finns alltid en säker kopia kvar., Raid0 (striping) = Datan delas upp och sparas på flera diskar samtidigt. Gör datorn snabbare när den läser och skriver.Men om en disk går sönder, förlorar du ALL data. Olika RAID-typer gör olika saker med datan. Övriga nummber Raids är varianter av Raid 1 och 0. Avancerade system kan använda kombinationer av RAID, som RAID 10 (en blandning av RAID 1 + RAID 0).
+
+#25 What is over-clocking?
+#Answer: Overclocking means making a computer component run faster than its official speed set by the manufacturer — usually the CPU (processor) or GPU (graphics card) 
+
+#26 What is motherboard?
+#Answer: Moderkortet är den viktigaste kretskortet i en dator. Det är som datorns “hjärta” eller “nav” där alla viktiga delar kopplas ihop.
+#På moderkortet sitter bland annat:
+#Processor (CPU)
+#Minne (RAM)
+#Lagringsenheter (SSD/HDD)
+#Grafikkort (ibland integrerat eller via plats)
+#Flera anslutningar för USB, ljud, nätverk med mera
+
+#27 What is SATA?
+#Answer: SATA står för Serial ATA (Serial Advanced Technology Attachment). Det är en vanlig standard för att koppla hårddiskar och SSD-enheter till moderkortet i en dator. Används ofta för både HDD och vissa äldre SSD:er.
