@@ -154,6 +154,93 @@ for k in range (0,6,2):
     print(f"{k}", end="")
 print("]")
 
+#34 How can you make the range count all numbers from 10-1 ,but backwards?
+#Answer
+for k in range (10,0,-1): #adding -1 makes the program count backwards in range, OBS! you must add the following number "0" to get the number 1 included in range
+    print(end="[")
+    print(f"{k:1}", end="]")
+
+
+######CLASS NOTES#####
+
+x = int(input ("hur många äpplen har du?:"))
+children =5
+apples = x
+whole_apples = apples// children
+leftover_apples = apples% children
+
+print ("Varje barn får", whole_apples, "hela äpplen")
+if leftover_apples !=0:             # om leftover_apples inte är noll, alltså om det blir rester, så delas den mellan antal barn.
+    print ("och dessutom", leftover_apples, "/", children, "av ett äpple")
+
+#35 Explain the parts in an "for-in" statement
+# for i in range (firstnum, lastnum, steps):    # i is a loop variable that take on different values as the loops run,and is defined on first loop, after loop 1 i becomes firstnum+ steps
+#       followed by one or multiple indentated statements
+#leaving steps means 1
+#entering only one num means lastnum
+
+#36 How can you define range (n) in other words?
+# for i in range (n) , is the same as for i in range (0,n,1)
+
+#37 Write a program that reads two decimal numbers from the user and checks which one is larger, use if, elif, and else
+#Answer:
+num1, num2 = (input("Enter two decimal numbers:" )). split ("and")
+# convert string to float
+num1 = float (num1)
+num2 = float (num2)
+
+if num1 > num2:
+    print (f"{num1} is greater than{num2}")
+elif num1 < num2:
+    print (f"{num1} is smaller than {num2}")
+else:
+    print ("The decimals are equal")
+
+#write same program but without split.() function
+value_1 = float(input ("Enter value 1:"))
+value_2 = float(input ("Enter value 2:"))
+
+if value_1 > value_2:
+    print (f"{value_1} is greater than{value_2}")
+elif value_1 < value_2:
+    print (f"{value_1} is smaller than {value_2}")
+else:
+    print ("The decimals are equal")
+
+
+# Write a program that lets the user enter dog years and calculates the corresponding human years. 7 human years equals to one dog year. Every dog year after the second counts as 5 human years each.
+
+dog_years  = int(input("Enter number of dogyears?:"))
+
+if dog_years == 1:
+    human_years = 15
+elif dog_years == 2:
+    human_years = 15 + 9
+elif dog_years > 2:
+    human_years = 15 + 9 + (dog_years-2)*5
+else:
+    human_years = 0     #for neg values or 0
+
+print (f"human years:{human_years}")
+
+# Write a program that lets the user write a number and prints three lines with the following line after the prevoius ontaining one more "+" sign .
+n = int(input("Enter desired number of lines:"))
+
+for i in range (1,n+1):
+    for j in range (1,i+1):
+        print ("+", end="")
+    print()       #terminates line
+
+#This program consists of two for-loops
+#The outer loop runs n times , every loop represents one line printed
+#in the beginning i has value 1, means variable j is going to run between 1 and 1, the inner for loop has been runned only once the first time.
+#second time i has value 2, whih means j will run between 1 and 2, the inner for loop runns two times, the "+" sign will be printed two times on this line, and THE SAME LINE is what end="" means
+#etc
+
+
+
+
+
 
 
 
