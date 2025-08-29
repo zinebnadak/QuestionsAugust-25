@@ -10,17 +10,17 @@
 # path = r"C:\new_folder\test.txt"          here \n and \t escapes are ignored
 # print(path)                               C:\new_folder\test.txt
 
-#4 what is Unicode?
+#what is Unicode?
 # Unicode is a system for representing characters (text) as numbers. It’s like a giant dictionary where every character in every language (letters, numbers, emojis, symbols) has its own unique number called a code point. So computers don’t actually store "😊" — they store 128522 ,  and Unicode tells them how to show it. There is unicode for digits, "0" → U+0030, So "0" as a string is different from the number 0 as an integer. Unicode is used instead of ASCII as a international standard.
 
-#5 why is Unicode  used instead of ASCII
+#why is Unicode  used instead of ASCII
 # ASCII Uses 7 bits → only 128 characters. Unicode Can represent over 1.1 million characters with UTF-8 (one byte), UTF-16 (two bytes) and UTF-32 (four bytes) groups.
 
-#6 How can you print a character that is not on your keyboard using Unicode?
+#How can you print a character that is not on your keyboard using Unicode?
 # use \u inside the string followed by the unicode, then print it
 # print("\u03A9")   # Greek capital letter Omega (Ω)
 
-#7 How can you print a character that is not on your keyboard using the charachters name instead of the unicode?
+#How can you print a character that is not on your keyboard using the charachters name instead of the unicode?
 # use \N            OBS! knowing the official Unicode names is key if you want to use the \N{...} syntax in Python
 # print("\N{GREEK CAPITAL LETTER OMEGA}")    # Ω
 # to know name import Pythons´s "unicodedata" module
@@ -45,6 +45,7 @@
 # use function "len"
 # print (len (x))   /will give you 6
 
+
 #12 Unlike other languages ,In python you can use negative indexes to begin counting from backwards.
 
 #13 In indexing you can choose only one item from sequene, How can you selcet multiple?
@@ -65,3 +66,6 @@
 #16 what is it that gets compare when comparing texts
 # When comparing texts (strings) in Python, what gets compared is the Unicode code point (numeric value) of each character, in lexicographic order.
 # "å" < "ä"         /gives false, bcs it goes by the numerical code , only letters a-z are in "right order" even numerical.
+
+
+
