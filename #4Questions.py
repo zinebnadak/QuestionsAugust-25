@@ -45,5 +45,23 @@
 # use function "len"
 # print (len (x))   /will give you 6
 
-#Unlike other languages ,In python you can use negative indexes to begin counting from backwards.
+#12 Unlike other languages ,In python you can use negative indexes to begin counting from backwards.
 
+#13 In indexing you can choose only one item from sequene, How can you selcet multiple?
+# By creating a "slice" that becomes the new sequence - ex. sequence [first:last:steps]
+# leaving first gives you index 0
+# leaving last gives you the sequances lenght /         /you can leave one or two integers empty, but ":" should always be included
+# Leaving steps gets you automatically 1
+# you an actually go beyond the limits of indexes when slicing , s[1:100] can give you whole sequence
+
+#14 How and why can we compare sequences?
+# to see if they are equal (same lenght and items gives you True)
+# "abc" = "abc"         //give True
+
+#15 How can you compare if a sequence is smaller or bigger than another?
+# by using lexicographic order/dictionary order
+# "abc" < "abcd"    // give True
+
+#16 what is it that gets compare when comparing texts
+# When comparing texts (strings) in Python, what gets compared is the Unicode code point (numeric value) of each character, in lexicographic order.
+# "å" < "ä"         /gives false, bcs it goes by the numerical code , only letters a-z are in "right order" even numerical.
