@@ -67,5 +67,94 @@
 # When comparing texts (strings) in Python, what gets compared is the Unicode code point (numeric value) of each character, in lexicographic order.
 # "å" < "ä"         /gives false, bcs it goes by the numerical code , only letters a-z are in "right order" even numerical.
 
+#17
+# When do we use a for-loop?
+# When we want to go through all items/elements in a sequence
+# For x in range (0,len(s)):      //or//         For x in s:
+
+#18 what does function "enumerate" do, and how to use it?
+# a built-in function that lets you loop over something while keeping track of the index of the current item.
+# enumerate(sequence variable, start=0)
+#fruits = ["apple", "banana", "cherry"]
+# for index, fruit in enumerate(fruits):
+    #print(index, fruit)
+
+#19 How to use operator "in" to find out if an element or text is in a sequence or word?
+#string = "happy"
+#print ("h" in string)           /gives true
+#print ("app" in string)        /gives true
+
+#20 Can you change the text in a sequence by indexing?
+# NO! you need to change whole word
+# s = "old"
+# s[1]= "u"         SyntaxError!
+# s = "young"      OK!
+
+#21 How an you reate a new sequene by two already existing sequences?
+# by using "+" operator
+# s1 = "re"
+# s2 = "turn"
+# s3 = s1 +s2       or   s1+= "play"           /s3 becomes "return", s1 gets new value "replay"
+
+#22 What other operator can be used to create sequences?
+# "*" operator
+# n = no
+# a = n *3          / gives us a = "nonono"
+
+#23 Giive some examples of functions that are common for all types of sequences
+# language = "python"
+
+# len (language)   /counts number of characters
+# min (language)   /gives smallest item in sequenece  -language
+# max (language)    /gives greatest item in sequenece  -language
+
+#sorted (language)  /gives a sorted list , sequence -language does not change
+#sum (number)       /gives sum of items in sequence , not for strings
+
+#language.count (p)     /counts how many times "p" is in sequence
+#language.count (p, p,n)    /counts how many times "p" is in interval p-(m-1) in sequence
+#language.index (p)     /gives index for first time "p" in sequence
+#language. index (p,p,n)    /gives index for first time "p" in inteval p-(n-1) in sequence
+
+#24 Where can you read more about funtions for strings
+# In pythons standard library see page. 98
+
+#25 There are two types of functions that go with strings
+# Those that EXAMINES strings
+# Those that FORM NEW strings
+# !no functions can change in text!
+
+#DATE AND TIME
+#26 How to use standard-type "datetime"
+# to know current date and time
+# import datetime
+# then create a variable
+# x = datetime.datetime.now()       /datetime written two times
+# date = x.date()
+# time = x.time()
+# datetext = str(date)          print (datetext)      /if want to print date in "yyyy-mm-dd" format
+# timetext = str(time)[:8]                            /if want to print time in "hh-mm-ss" format
+# year = x.year             / works with .month and .day too
+# hour = x.hour             / works with .minutes and .seconds too
+# print (date.isoweekday()) /to get the weekday number (1-7)
+# print (date.isocalendar()[1]) /to get weeknumber
+
+#27 What is Match-statement, when and how to use?
+# Use when you have multiple alternatives and user is going to shoose one of them. It’s useful as a cleaner alternative to long chains of if/elif/else. Patterns can match constants, variable structures, sequences, or even data classes.
+# size = input ("what size (XS,S,M,L)?: ").upper
+# math size:
+    #case "XS":
+        #print ("Availiable on shelf 1")
+    #case "S":
+        #print ("Availiable on shelf 2")
+    #case "M" | "L":         # need to use pipe symbol "|" (means or) , Option + 7 on MacBook
+        #print ("sold out"
+        #print ("can get ordered")
+    #case _:                  #if input does not math any of cases comp auto jumps to this "case_"
+        #print ("wrong search input")
+
+
+
+
 
 
