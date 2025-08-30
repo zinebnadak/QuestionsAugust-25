@@ -107,10 +107,9 @@ print (f"In {age_in_question}, you will be {age_in_that_year} years old!" )
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #18 Explain the von Neurmann arcitecture from 1945: EXAM QUESTION
 #answer: 
-#Lagrat program/lagring SSD/Hårddisk – Data och instruktioner lagras i samma minne.
-#Enhetligt minne RAM – Samma minne används för både program och data.
-#Processor  - CPU (Centralenhet) – Utför instruktionerna steg för steg. Består av tre delar: ALU (räkningar och logik), CU (Styrenhet-kontrollerar ordningen) och Register (små, snabba minnesplatser, används för att lagra data och instruktioner temporärt medan de bearbetas)
-#
+#program/lagring- SSD/Hårddisk – Data och instruktioner lagras i samma minne.
+#minne RAM – används för både program och data.
+#Processor  - CPU (Centralenhet) – Utför instruktionerna steg för steg. Består av tre delar: ALU (Arithmetic Logic Unit - räkningar och logik), CU (Control Unit - Styrenhet som kontrollerar ordningen) och Register (små, snabba minnesplatser, används för att lagra data och instruktioner temporärt medan de bearbetas)
 #In- och utmatning – Hanterar kommunikation med användare och enheter.ex. tangentbord, skärm 
 
 #19 Explain how the different parts work together: EXAM QUESTION
@@ -119,37 +118,41 @@ print (f"In {age_in_question}, you will be {age_in_that_year} years old!" )
 #2Det laddas in i minnet (RAM) - tömms när ström kopplas ur
 #3Processorn kör instruktionerna.
 
-#20 Identifiate the different parts from a picture from manual EXAM QUESTION
+#20 Identifiate the different parts from a picture of mothercard EXAM QUESTION
 #Answer: search for pic
 
 #21 Why is this important to understand? EXAM QUESTION
-#Answer: The operating system’s job is to go from hardware to app. The operating system manages the hardware (processor, memory, hard disk, etc.) and enables programs and apps to use the hardware, creating an environment where programs can run.
+#Answer: The operating system’s (OS) job is to go from hardware to application. The operating system manages the hardware (processor, memory, hard disk, etc.) and enables programs and apps to use the hardware, creating an environment where programs can run.
 
 #22 What is cache-memory used for?
 #Answer: Cache memory is a small, super-fast type of memory inside the CPU used to store frequently accessed data and instructions. It helps the processor work faster by reducing the time needed to get data from the main memory (RAM).
 
-#23 Storage media are devices where data is saved permanently or temporarily in a computer or other electronics.
-#ANswer: Examples of storage media:
-#Hard disk drive (HDD)
+#23 Storage media are devices where data is saved permanently or temporarily in a computer or other electronics. Give some example of storage media.
+#ANswer: 
+#HDD (Hard disk drive)
 #SSD (Solid State Drive)
 #USB flash drive
-#CD/DVD
-#Obs! with time the voltage redues and you an lose the stored media
+#CD (Compact Disk)
+#DVD (Digital Video Disc)
+#Obs! with time the voltage redues and you can lose the stored media
 
 #24 What is RAID? Raid 0 and Raid1? 
-#Answer: RAID är ett sätt att koppla ihop flera hårddiskar eller SSD:er så att de fungerar tillsammans. Det kan göra datorn snabbare eller skydda dina filer bättre. Raid1 (spegling) =Samma data sparas på två diskar, som en kopia. Om en disk går sönder finns alltid en säker kopia kvar., Raid0 (striping) = Datan delas upp och sparas på flera diskar samtidigt. Gör datorn snabbare när den läser och skriver.Men om en disk går sönder, förlorar du ALL data. Olika RAID-typer gör olika saker med datan. Övriga nummber Raids är varianter av Raid 1 och 0. Avancerade system kan använda kombinationer av RAID, som RAID 10 (en blandning av RAID 1 + RAID 0).
+#Answer:  RAID is a way to connect multiple hard drives or SSDs so that they work together. It can make the computer faster or protect your files better.
+#RAID 1 (mirroring) = The same data is saved on two drives, like a copy. If one drive breaks, there's always a safe copy left.
+#RAID 0 (striping) = Data is split and saved on multiple drives at the same time. It makes the computer faster when reading and writing. But if one drive breaks, you lose ALL data.
+#Different RAID types do different things with the data. Other RAID numbers are variations of RAID 1 and 0. Advanced systems can use combinations of RAID, like RAID 10 (a mix of RAID 1 + RAID 0)."
 
-#25 What is over-clocking?
+25 What is over-clocking?
 #Answer: Overclocking means making a computer component run faster than its official speed set by the manufacturer — usually the CPU (processor) or GPU (graphics card) 
 
 #26 What is motherboard?
-#Answer: Moderkortet är den viktigaste kretskortet i en dator. Det är som datorns “hjärta” eller “nav” där alla viktiga delar kopplas ihop.
-#På moderkortet sitter bland annat:
+#Answer: The motherboard is the most important circuit board in a computer. It’s like the computer’s “heart” or “hub” where all the important components are connected.
+#The motherboard contains, among other things:"
 #Processor (CPU)
 #Minne (RAM)
 #Lagringsenheter (SSD/HDD)
-#Grafikkort (ibland integrerat eller via plats)
-#Flera anslutningar för USB, ljud, nätverk med mera
+#Grafic-card 
+#Several connections for USB, audio, network, and more"
 
 #27 What is SATA?
-#Answer: SATA står för Serial ATA (Serial Advanced Technology Attachment). Det är en vanlig standard för att koppla hårddiskar och SSD-enheter till moderkortet i en dator. Används ofta för både HDD och vissa äldre SSD:er.
+#Answer: SATA stands for Serial ATA (Serial Advanced Technology Attachment). It is a common standard for connecting hard drives and SSDs to the motherboard of a computer. It is often used for both HDDs and some older SSDs.
