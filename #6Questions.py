@@ -121,5 +121,48 @@
 #.clear() = removes all items
 #. reverse() = rewrites list starting bakwards
 
+#24 How does a loop that terminates with break look like?
+# while True:
+#   s= input ...
+#   if s ==":
+#       break
+
+#25 how to copy items on list from variable to another variable?
+#v= [1,2,3,4,5]
+#w = [0,0,0]
+#w=v.copy()              #new value for list w = [1,2,3,4,5]
+#but when changing anything i w, also changes in v. Beacause variables v and w share the same index and list. called a reference
+
+#26 How to not get w and v to share the SAME list but still opy and be able to make changes without the other one changing
+# w = v.copy()
+
+#27 lists in lists is called multidimentional lists, give an example of a two dimentional list
+m = [[1,2],[3,4],[5,6]]       #list m has a list with three elements, each element is a list with two elements
+
+#28 what is the mathematical word "matrix"
+#A matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns
+# list m has three rows and two columns
+
+#29 to be able to continue writing list on next row in program use / or just any form of parenthesis works
+
+#30 how to fetch sole elements on a two dimentional list?
+# use indexing with integers as normal m[0][1]        // gives you element "2"
+
+#31 How to print two dimentional lists neater and more readable?
+#for i in range (0, len(m)):        /loops three times , one for every row (3 rows)
+#    for j in range (0, len(m[i])):         /loops two times, one for every column (2 columns)
+#        print (f"{m[i][j]:3}", end="")          //3 white spaes between each
+#    print()                                /new row , before starting on new element-list in m
+#loop through all elements and print them one by one
+
+#32. On the same list use a different method, than for-range, printing two dimentional lists neater and more readable
+#for i in m:
+    #for r in i:
+        #print(f"{r:3}", end="")
+    #print()
+
+
+
+
 
 
