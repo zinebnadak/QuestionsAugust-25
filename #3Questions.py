@@ -83,6 +83,7 @@ print (f"It is {t:.1f} degrees")
 #21 What is the act of dragging in code under a for example if-command called?
 # To indent
 
+
 #TO REPEAT
 #22 What sentences are used for repeating, and what kind of expressions is combine with them?
 # The while-sentence and for-sentence , followed by a logical expression and decides how many times code is repeated. When the logical expression expires and beomes false it exits the loop.
