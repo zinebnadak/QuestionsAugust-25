@@ -1,0 +1,89 @@
+#18 Explain the von Neurmann arcitecture from 1945: EXAM QUESTION
+#answer: 
+#program/lagring- SSD/Hårddisk – Data och instruktioner lagras i samma minne.
+#minne RAM – används för både program och data.
+#Processor  - CPU (Centralenhet) – Utför instruktionerna steg för steg. Består av tre delar: ALU (Arithmetic Logic Unit - räkningar och logik), CU (Control Unit - Styrenhet som kontrollerar ordningen) och Register (små, snabba minnesplatser, används för att lagra data och instruktioner temporärt medan de bearbetas)
+#In- och utmatning – Hanterar kommunikation med användare och enheter.ex. tangentbord, skärm 
+
+#19 Explain how the different parts work together: EXAM QUESTION
+#Samspel:
+#1Du öppnar ett program från lagringen.
+#2Det laddas in i minnet (RAM) - tömms när ström kopplas ur
+#3Processorn kör instruktionerna.
+
+#20 Identifiate the different parts from a picture of mothercard EXAM QUESTION
+#Answer: search for pic
+
+#21 Why is this important to understand? EXAM QUESTION
+#Answer: The operating system’s (OS) job is to go from hardware to application. The operating system manages the hardware (processor, memory, hard disk, etc.) and enables programs and apps to use the hardware, creating an environment where programs can run.
+
+#22 What is cache-memory used for?
+#Answer: Cache memory is a small, super-fast type of memory inside the CPU used to store frequently accessed data and instructions. It helps the processor work faster by reducing the time needed to get data from the main memory (RAM).
+
+#23 Storage media are devices where data is saved permanently or temporarily in a computer or other electronics. Give some example of storage media.
+#ANswer: 
+#HDD (Hard disk drive)
+#SSD (Solid State Drive)
+#USB flash drive
+#CD (Compact Disk)
+#DVD (Digital Video Disc)
+#Obs! with time the voltage redues and you can lose the stored media
+
+#24 What is RAID? Raid 0 and Raid1? 
+#Answer:  RAID is a way to connect multiple hard drives or SSDs so that they work together. It can make the computer faster or protect your files better.
+#RAID 1 (mirroring) = The same data is saved on two drives, like a copy. If one drive breaks, there's always a safe copy left.
+#RAID 0 (striping) = Data is split and saved on multiple drives at the same time. It makes the computer faster when reading and writing. But if one drive breaks, you lose ALL data.
+#Different RAID types do different things with the data. Other RAID numbers are variations of RAID 1 and 0. Advanced systems can use combinations of RAID, like RAID 10 (a mix of RAID 1 + RAID 0)."
+
+25 What is over-clocking?
+#Answer: Overclocking means making a computer component run faster than its official speed set by the manufacturer — usually the CPU (processor) or GPU (graphics card) 
+
+#26 What is motherboard?
+#Answer: The motherboard is the most important circuit board in a computer. It’s like the computer’s “heart” or “hub” where all the important components are connected.
+#The motherboard contains, among other things:"
+#Processor (CPU)
+#Minne (RAM)
+#Lagringsenheter (SSD/HDD)
+#Grafic-card 
+#Several connections for USB, audio, network, and more"
+
+#27 What is SATA?
+#Answer: SATA stands for Serial ATA (Serial Advanced Technology Attachment). It is a common standard for connecting hard drives and SSDs to the motherboard of a computer. It is often used for both HDDs and some older SSDs.
+
+#How does incryption and decryption work in basic?
+#Encryption = turning readable data (plaintext) into an unreadable form (ciphertext) using a key and an algorithm. The goal: protect the data so only someone with the right key can read it.
+# Decryption = turning ciphertext back into the original plaintext, using the key and the reverse of the algorithm.
+#Encryption and decryption always involve 3 things:
+# - Plaintext → the original message (Hello).
+# - Algorithm → the method to scramble/descramble (e.g., Caesar cipher, AES).
+# - Key → secret value that controls how the scrambling works.
+#Without the key, ciphertext should look like random nonsense.
+
+#Give 2 examples of encryption methods:
+# Simple Caesar Cipher (Shift Letters), Modern Encryption (AES = Advanced Encryption Standard)
+
+# What two types of encryption (algorithms) is there?
+# Symmetric Encryption
+# -Same key used for encryption and decryption.
+# -Example: AES, DES (Data Encryption Standard)
+# -Fast, but the key must be shared securely.
+
+# Asymmetric Encryption
+# -Two keys: public key (encrypt) and private key (decrypt).
+# -Example: RSA. (Rivest–Shamir–Adleman)
+# -Used in secure communications like HTTPS. (HyperText Transfer Protocol Secure: the protocol web browsers use to talk to websites) + security (encryption).
+
+# Create a program in Python that can encypt a message, and decrypt it using a given key. 
+# and add another funtion to add encryption complexity
+message = input("TRICELL LABORATORIES INC")
+
+
+alphabet = ("A","B","C","D","E","F","G","H","I","J","K","L","M",
+    "N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
+    "Å","Ä","Ö"," ")
+
+import random
+key = random.choice(0,len(alphabet))
+
+
+print("Key:" key)
