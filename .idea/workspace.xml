@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="182b715a-3c2a-44f7-89b1-62e066d05747" name="Changes" comment="new notes 31.8">
-      <change afterPath="$PROJECT_DIR$/Questions8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#3Questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/#3Questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-08-25,_10_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-08-25__10_02__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="182b715a-3c2a-44f7-89b1-62e066d05747" name="Changes" comment="update 7.8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +220,14 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1756626750256</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="update 7.8">
+      <option name="closed" value="true" />
+      <created>1757233322647</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1757233322647</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +239,7 @@
     <MESSAGE value="new notes 29.8" />
     <MESSAGE value="new notes 30.8" />
     <MESSAGE value="new notes 31.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="new notes 31.8" />
+    <MESSAGE value="update 7.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 7.8" />
   </component>
 </project>
