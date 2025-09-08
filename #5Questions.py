@@ -1,6 +1,6 @@
 #TO HANDLE TEXT
 #1 What is literals?
-# A literal is a fixed value that you write directly in your code. It represents itself (not a variable or expression). ex. numerical literals , string literals, boolean literals. Ex. x=42, 42 is a integer literal. or name = "Eva", Eva is a string literal. COMPARE TO y= x, Here y is not a literal, it’s a variable that refers to the value stored in x.
+# A literal is a fixed value that you write directly in your code. It represents itself (not a variable or expression). ex. numerical literals , string literals, boolean literals. Ex.  42 is a integer literal. or "Eva", Eva is a string literal. COMPARE TO y= x, Here y is not a literal, it’s a variable that refers to the value stored in x.
 
 #2 What does "\" inside a string tell the program?
 # That the next character is treated differently ex. x = "His name was \"Mikael\"". character combinations with "\" is called escape-sequenses.
@@ -42,7 +42,7 @@
 # x[0]          /will give you H
 
 #11 How to know how many items/elements are in a sequence? (by using only the variable)
-# use function "len"
+# use function "len" , from length
 # print (len (x))   /will give you 6
 
 
@@ -53,7 +53,7 @@
 # leaving first gives you index 0
 # leaving last gives you the sequances lenght /         /you can leave one or two integers empty, but ":" should always be included
 # Leaving steps gets you automatically 1
-# you an actually go beyond the limits of indexes when slicing , s[1:100] can give you whole sequence
+# you can actually go beyond the limits of indexes when slicing , s[1:100] can give you whole sequence
 
 #14 How and why can we compare sequences?
 # to see if they are equal (same lenght and items gives you True)
@@ -72,7 +72,7 @@
 # When we want to go through all items/elements in a sequence
 # For x in range (0,len(s)):      //or//         For x in s:
 
-#18 what does function "enumerate" do, and how to use it?
+------------_>#18 what does function "enumerate" do, and how to use it?
 # a built-in function that lets you loop over something while keeping track of the index of the current item.
 # enumerate(sequence variable, start=0)
 #fruits = ["apple", "banana", "cherry"]
@@ -142,7 +142,7 @@
 #27 What is Match-statement, when and how to use?
 # Use when you have multiple alternatives and user is going to shoose one of them. It’s useful as a cleaner alternative to long chains of if/elif/else. Patterns can match constants, variable structures, sequences, or even data classes.
 # size = input ("what size (XS,S,M,L)?: ").upper
-# math size:
+# match size:
     #case "XS":
         #print ("Availiable on shelf 1")
     #case "S":
