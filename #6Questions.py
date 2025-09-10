@@ -199,11 +199,13 @@ print(squares) # Output: [1, 4, 9, 16, 25]
 # v = list(t)
 # print (v)             /gives us [1,2,3]
 
-#20 add a new item to list v
+#all operations is used by naming the index number! 
+
+#20 add a ONE new item to list v
 # v.append (4)          /gives us [1,2,3,4]
 
 #21 how to use operation "insert"
-# v.insert (4, 5)           /gives us [1,2,3,4,5]
+# v.insert (5,6)           /gives us [1,2,3,4,5]
 # first argument is index number, second argument new item
 
 #22 how to use operation "del"
@@ -220,19 +222,14 @@ print(squares) # Output: [1, 4, 9, 16, 25]
 #.clear() = removes all items
 #. reverse() = rewrites list starting bakwards
 
-#24 How does a loop that terminates with break look like?
-# while True:
-#   s= input ...
-#   if s ==":
-#       break
-
 #25 how to copy items on list from variable to another variable?
 #v= [1,2,3,4,5]
 #w = [0,0,0]
 #w=v.copy()              #new value for list w = [1,2,3,4,5]
+#now w and v are each others references 
 #but when changing anything i w, also changes in v. Beacause variables v and w share the same index and list. called a reference
 
-#26 How to not get w and v to share the SAME list but still opy and be able to make changes without the other one changing
+#26 How to not get w and v to share the SAME list but still copy and be able to make changes without the other one changing
 # w = v.copy()
 
 #27 lists in lists is called multidimentional lists, give an example of a two dimentional list
