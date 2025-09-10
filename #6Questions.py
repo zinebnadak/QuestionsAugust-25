@@ -129,20 +129,6 @@ print(squares) # Output: [1, 4, 9, 16, 25]
 print(squares) # Output: [1, 4, 9, 16, 25]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #13 How to use function "join" for lists?
 # writes a single string  contained of all items in list
 # print ("separator".join(lists_name))
@@ -155,17 +141,46 @@ print(squares) # Output: [1, 4, 9, 16, 25]
 #random module is very useful! :)
 
 #THE ORDINARY LIST , type list
+
 #15.How to make a list out of an input? (string)
 # ex.
 # input = input("write some words (use empty space as separator): ")
 # list = input.split ()         / (",")or whatever separator is used by the inputter
 # print (list[0])           //will fetch first word instead of whole string input
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #16 when can it be a good idea to combine ".replace" and ".split"
 # when the input is for ex. : input = "a,b, c,  d"      /and we want to remove the viraety of empty spaces before splitting
 # input = input.replace (" ", "  ")
 # list = input.split (",")             /then create new list , list comprehension
 # print (list)          / gives us ["a", "b", "c", "d"] without unregular empty spaces
+
 
 #17 how to use list omprehension to turn strings in a list to be read as floats ?
 # numbers = [float(i) for i in x]            /new list , from old list "x" called "numbers"
