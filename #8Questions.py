@@ -94,6 +94,7 @@
 
 #What are global variables?
 #defined outside of all functions and is accessible from anywhere in your code, including inside functions
+#se mera under globala och lokala värden, modulen 
 
 #How to expessionaly write that you mean a lokal or global variable?
 # x = 5
@@ -259,7 +260,7 @@
 #     else:
 #         return n * factorial(n - 1)
 
-
+#se mer under skapa egna funktioner och moduler 
 
 
 
