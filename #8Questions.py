@@ -250,7 +250,7 @@
 
 
 #What is a recursive function?
-#A recursive function is a function that calls itself to solve a problem by breaking it into smaller parts.
+# A recursive function is a function that calls itself to solve a problem by breaking it into smaller parts.
 # example the recursive function n!:
 # def factorial(n):
 #     if  n<0:

@@ -89,7 +89,49 @@ print("Key:" key)
 
 #EXAM QUESTION! Calculate decimal numbers to binary, okcal and hexadecimal numbers and reverse! Explain how you do it with a normal calculator! 
 
+# What basic understanding of frequencies is required in the field of IT?
+# Frequency is how often something repeats per unit of time
+# In IT, frequency often relates to signals, clocks, data rates, or waves.
+
+# Common contexts where frequency matters in IT:
+# * Processor Clock Speed: CPUs run at a certain frequency (e.g., 3 GHz = 3 billion cycles per second). Determines how many operations the CPU can perform per second.
+# * Data Transmission / Network Speeds: Frequency relates to how fast signals or bits are sent (e.g., MHz or GHz for wireless signals).
+# * Sampling Frequency: When digitizing analog signals (like audio), the frequency defines how often the signal is measured per second.
+# * Display Refresh Rate: Monitors refresh images at a frequency (e.g., 60 Hz, 144 Hz), meaning how many times the screen updates per second.
+
+# Why frequency matters: Higher frequency generally means faster processing, transmission, or sampling. But higher frequency can also mean more power consumption and heat. Frequency has physical limits (e.g., hardware limits, signal integrity).
+
 # What does Hz mean?
 # 1 Hz = Hertz is the unit of frequency. 1 Hz = 1 cycle per second (1 händelse per sekund)
+
+# What is Quantization (kvantisering)
+# When you have an analog signal (like sound or temperature) that can take on any value, quantization rounds or maps those values into fixed steps or levels.
+# This is necessary to represent analog signals in digital form.
+# The more levels you have, the more accurate the digital representation is.
+# needed bcs: Because computers and digital devices can only handle discrete values, not continuous ones. It allows analog information to be stored and processed digitally.
+
+# Sampling Frequency vs Sampling Time
+#Sampling Frequency (Sampling Rate): Definition: The number of samples taken per second when converting a continuous signal into a discrete one. Unit: Hertz (Hz), meaning samples per second. Example: A sampling frequency of 44,100 Hz means 44,100 samples are taken every second (common in audio).
+# Sampling Time: Definition: The duration between two consecutive samples. Unit: Seconds (or milliseconds, microseconds, etc.).
+
+# What is CSV?
+# standard format for storing and exchanging tabular data in plain text. Each line represents a row, and values within the row are separated by commas.
+
+# How does loudspeakers essantially work?
+#A loudspeaker works by converting electrical signals into sound. An electric audio signal passes through a coil inside the speaker, creating a magnetic field that makes the coil move back and forth. This coil is attached to a diafragm/cone, which also moves and pushes air to create sound waves that we can hear.
+
+# What is Anti-Alias Filtering?
+# Alias (aliasing) is a signal processing issue that happens during sampling. When a signal with high frequencies is sampled too slowly, those high frequencies get misrepresented as lower frequencies, causing distortions or artifacts.
+#This is called aliasing. Anti-alias filtering is a technique used in signal processing (like audio, images, and graphics) to prevent aliasing — unwanted distortions or artifacts that happen when a signal is sampled or converted from one form to another
+# when things look weird because you don’t see them often enough. That’s called aliasing
+
+#all signals contains of hundreds or thousands different frequencies combined, or around a main one, unless you choose a pure XXXHz tone.
+
+
+
+
+
+
+
 
 
