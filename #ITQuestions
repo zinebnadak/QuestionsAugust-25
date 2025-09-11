@@ -59,7 +59,7 @@
 # - Key → secret value that controls how the scrambling works.
 #Without the key, ciphertext should look like random nonsense.
 
-#Give 2 examples of encryption methods:
+# Give 2 examples of encryption methods:
 # Simple Caesar Cipher (Shift Letters), Modern Encryption (AES = Advanced Encryption Standard)
 
 # What two types of encryption (algorithms) is there?
@@ -85,5 +85,9 @@ alphabet = ("A","B","C","D","E","F","G","H","I","J","K","L","M",
 import random
 key = random.choice(0,len(alphabet))
 
-
 print("Key:" key)
+
+# What does Hz mean?
+# 1 Hz = Hertz is the unit of frequency. 1 Hz = 1 cycle per second (1 händelse per sekund)
+
+
