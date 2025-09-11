@@ -153,8 +153,7 @@
     #case _:                  #if input does not math any of cases comp auto jumps to this "case_"
         #print ("wrong search input")
 
-#EXAM QUESTION! Calculate decimal numbers to binary, okcal and hexadecimal numbers and reverse! Explain how you do it with a normal calculator! 
-# 
+
 
 
 
